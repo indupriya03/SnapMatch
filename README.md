@@ -281,17 +281,18 @@ SnapMatch/
 ## 🔮 Future Work
 
 - [ ] Swap `IndexFlatIP` for `IndexIVFPQ` for million-scale scalability
-- [ ] Replace ResNet50 with CLIP image encoder for zero-shot cross-modal retrieval
 - [ ] Containerise with Docker; expose search as a REST API (FastAPI)
 
 ---
 
 ## 👩‍💻 Author
+```
 
 **Indupriya Chidambararaj** · 2026
 Machine Learning Engineer & Data Scientist
 [GitHub](https://github.com/indupriya03) · [LinkedIn](https://www.linkedin.com/in/indupriyachidambararaj/)
 
+```
 ---
 
 *Built with PyTorch · FAISS · MySQL · Streamlit*
