@@ -34,8 +34,6 @@ The system extracts deep visual features using a pre-trained **ResNet50** backbo
 
 ## 🎬 Demo
 
-> **Note:** GitHub cannot play videos directly from the `assets/` folder in a README.
-> Upload your video via a GitHub Issue (drag & drop into the text box), copy the generated link, and replace the line below.
 
 [`https://github.com/indupriya03/SnapMatch/assets/YOUR-ID/YOUR-VIDEO-ID.mp4`](https://github.com/user-attachments/assets/e92ca6d5-f2b3-410b-9596-7f5f5abf65e2)
 
