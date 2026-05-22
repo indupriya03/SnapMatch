@@ -286,9 +286,9 @@ SnapMatch/
 ---
 
 ## 👩‍💻 Author
-```
 
 **Indupriya Chidambararaj** · 2026
+```
 Machine Learning Engineer & Data Scientist
 [GitHub](https://github.com/indupriya03) · [LinkedIn](https://www.linkedin.com/in/indupriyachidambararaj/)
 
