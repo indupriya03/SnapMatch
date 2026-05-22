@@ -64,16 +64,16 @@ The system correctly retrieves visually similar lamp styles. Result #7 (Cabinet)
 ### 📂 Browse by Category
 Explore all 12 product categories. Select a category to browse sample images from the dataset with a configurable result count slider.
 
-![Browse by Category — all categories](assets/last_page_1.png)
-![Browse by Category — bicycle filtered](assets/last_page.png)
+![Browse by Category — all categories](assets/browse_by_category.png)
+![Browse by Category — bicycle filtered](assets/browse_by_category_bicycle_filtered.png)
 
 ---
 
 ### 📊 Evaluation Metrics
 The Eval Metrics page reports aggregate retrieval quality and per-category precision across K = 1, 5, 10, 20 — over 200 held-out test queries.
 
-![Evaluation Metrics — summary](assets/secondpage.png)
-![Per-category Precision@5](assets/second_page_2.png)
+![Evaluation Metrics — summary](assets/evaluation.png)
+![Per-category Precision@5](assets/precision.png)
 
 ---
 
