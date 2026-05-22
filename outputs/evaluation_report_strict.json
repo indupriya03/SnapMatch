@@ -1,0 +1,3900 @@
+{
+  "n_queries": 200,
+  "k_values": [
+    1,
+    5,
+    10,
+    20
+  ],
+  "mean_precision_at_k": {
+    "1": 0.075,
+    "5": 0.024,
+    "10": 0.014,
+    "20": 0.0088
+  },
+  "mean_recall_at_k": {
+    "1": 0.0625,
+    "5": 0.1025,
+    "10": 0.1192,
+    "20": 0.1467
+  },
+  "mean_search_time_ms": 4.618,
+  "max_search_time_ms": 19.987,
+  "sub_second_search": true,
+  "category_metrics": {
+    "chair_final": {
+      "precision@1": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "precision@20": 0.0
+    },
+    "bicycle_final": {
+      "precision@1": 0.0,
+      "precision@5": 0.0133,
+      "precision@10": 0.0067,
+      "precision@20": 0.0067
+    },
+    "kettle_final": {
+      "precision@1": 0.0526,
+      "precision@5": 0.0316,
+      "precision@10": 0.0211,
+      "precision@20": 0.0132
+    },
+    "fan_final": {
+      "precision@1": 0.1923,
+      "precision@5": 0.0462,
+      "precision@10": 0.0269,
+      "precision@20": 0.0173
+    },
+    "table_final": {
+      "precision@1": 0.1579,
+      "precision@5": 0.0421,
+      "precision@10": 0.0263,
+      "precision@20": 0.0132
+    },
+    "cabinet_final": {
+      "precision@1": 0.0476,
+      "precision@5": 0.0095,
+      "precision@10": 0.0048,
+      "precision@20": 0.0024
+    },
+    "toaster_final": {
+      "precision@1": 0.0,
+      "precision@5": 0.0222,
+      "precision@10": 0.0167,
+      "precision@20": 0.0111
+    },
+    "sofa_final": {
+      "precision@1": 0.1,
+      "precision@5": 0.06,
+      "precision@10": 0.03,
+      "precision@20": 0.015
+    },
+    "coffee_maker_final": {
+      "precision@1": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "precision@20": 0.0
+    },
+    "lamp_final": {
+      "precision@1": 0.0833,
+      "precision@5": 0.0167,
+      "precision@10": 0.0083,
+      "precision@20": 0.0083
+    },
+    "mug_final": {
+      "precision@1": 0.1667,
+      "precision@5": 0.0333,
+      "precision@10": 0.0167,
+      "precision@20": 0.0111
+    },
+    "stapler_final": {
+      "precision@1": 0.0,
+      "precision@5": 0.0,
+      "precision@10": 0.0,
+      "precision@20": 0.0
+    }
+  },
+  "per_query": [
+    {
+      "filename": "271443825011_1.JPG",
+      "class_id": 13135,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 8.769,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321544335281_7.JPG",
+      "class_id": 11681,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 10.424,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281775316285_5.JPG",
+      "class_id": 15921,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 6.182,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "380973458104_11.JPG",
+      "class_id": 15389,
+      "category": "fan_final",
+      "n_relevant": 2,
+      "search_time_ms": 4.082,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281766273504_4.JPG",
+      "class_id": 15147,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.061,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "351235098324_4.JPG",
+      "class_id": 13764,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.93,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "251731569705_2.JPG",
+      "class_id": 12964,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.076,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "381077528150_3.JPG",
+      "class_id": 21671,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.953,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "351471676168_2.JPG",
+      "class_id": 12705,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.006,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "371404693524_4.JPG",
+      "class_id": 22512,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "271948318019_3.JPG",
+      "class_id": 19180,
+      "category": "sofa_final",
+      "n_relevant": 2,
+      "search_time_ms": 8.853,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331602923356_1.JPG",
+      "class_id": 11751,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321820508774_4.JPG",
+      "class_id": 11725,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 9.084,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "381349749216_10.JPG",
+      "class_id": 12812,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "271961487709_3.JPG",
+      "class_id": 15103,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 9.772,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321748194312_0.JPG",
+      "class_id": 15266,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 2.115,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "251743939314_0.JPG",
+      "class_id": 20707,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321760504234_7.JPG",
+      "class_id": 11696,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271696537775_0.JPG",
+      "class_id": 21988,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 19.141,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "400963292036_2.JPG",
+      "class_id": 14890,
+      "category": "coffee_maker_final",
+      "n_relevant": 2,
+      "search_time_ms": 1.008,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "381076891478_1.JPG",
+      "class_id": 21667,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261992653254_6.JPG",
+      "class_id": 19126,
+      "category": "sofa_final",
+      "n_relevant": 1,
+      "search_time_ms": 14.295,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "281617253570_4.JPG",
+      "class_id": 15127,
+      "category": "fan_final",
+      "n_relevant": 2,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.5
+      }
+    },
+    {
+      "filename": "390677767290_3.JPG",
+      "class_id": 19613,
+      "category": "sofa_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "371073313601_2.JPG",
+      "class_id": 22495,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 15.476,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301661566195_4.JPG",
+      "class_id": 15993,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.097,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261942162413_2.JPG",
+      "class_id": 11403,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "252053466322_1.JPG",
+      "class_id": 14167,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.008,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281690762727_5.JPG",
+      "class_id": 19191,
+      "category": "sofa_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.052,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "351260892965_0.JPG",
+      "class_id": 17275,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.514,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301628399822_1.JPG",
+      "class_id": 15990,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.087,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "251633777645_1.JPG",
+      "class_id": 14102,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 2.919,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271877716177_5.JPG",
+      "class_id": 15070,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321817177876_2.JPG",
+      "class_id": 17165,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 11.215,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "251731074179_3.JPG",
+      "class_id": 12961,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.74,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "381188276885_0.JPG",
+      "class_id": 12792,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301204684314_7.JPG",
+      "class_id": 18230,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "391215037704_0.JPG",
+      "class_id": 12849,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 15.725,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261964067421_2.JPG",
+      "class_id": 17743,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.603,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "371382238692_6.JPG",
+      "class_id": 17367,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261988617449_0.JPG",
+      "class_id": 15718,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 10.886,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "391210325665_4.JPG",
+      "class_id": 11862,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261924032670_0.JPG",
+      "class_id": 19795,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331404653485_2.JPG",
+      "class_id": 21482,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 16.595,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301371955816_1.JPG",
+      "class_id": 13422,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.021,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "291535064808_2.JPG",
+      "class_id": 18206,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.988,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321806611780_4.JPG",
+      "class_id": 12560,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.88,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "252032391854_2.JPG",
+      "class_id": 21838,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "361364979699_0.JPG",
+      "class_id": 16266,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261987666488_1.JPG",
+      "class_id": 17796,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.098,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "311373311910_4.JPG",
+      "class_id": 22252,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 1.016,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "361275629637_5.JPG",
+      "class_id": 14794,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 7.683,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281749521263_5.JPG",
+      "class_id": 12344,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "400967143545_0.JPG",
+      "class_id": 11887,
+      "category": "bicycle_final",
+      "n_relevant": 2,
+      "search_time_ms": 10.152,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301646477116_1.JPG",
+      "class_id": 15204,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331628857925_0.JPG",
+      "class_id": 16192,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321824737132_5.JPG",
+      "class_id": 12593,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 16.147,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321785266406_5.JPG",
+      "class_id": 15267,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 1.923,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "251727907532_4.JPG",
+      "class_id": 12938,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 8.153,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301208591808_5.JPG",
+      "class_id": 18231,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.207,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301648676449_9.JPG",
+      "class_id": 15991,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 8.985,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "231646897609_0.JPG",
+      "class_id": 19681,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271515180625_0.JPG",
+      "class_id": 17862,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.1,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261981866818_10.JPG",
+      "class_id": 14242,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.006,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281705651688_3.JPG",
+      "class_id": 18010,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.008,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "252051226128_0.JPG",
+      "class_id": 17660,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.539,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261932403385_2.JPG",
+      "class_id": 15005,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "262007715277_0.JPG",
+      "class_id": 15755,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.099,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "291517176858_5.JPG",
+      "class_id": 12404,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 2.895,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281441845332_1.JPG",
+      "class_id": 14400,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 7.02,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331378117231_1.JPG",
+      "class_id": 21440,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "380973458104_0.JPG",
+      "class_id": 15389,
+      "category": "fan_final",
+      "n_relevant": 2,
+      "search_time_ms": 8.743,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261999893395_0.JPG",
+      "class_id": 14260,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261990216262_4.JPG",
+      "class_id": 19841,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301155528611_2.JPG",
+      "class_id": 18224,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 16.045,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271914256416_2.JPG",
+      "class_id": 15804,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261794367127_1.JPG",
+      "class_id": 21917,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281138763771_2.JPG",
+      "class_id": 15113,
+      "category": "fan_final",
+      "n_relevant": 2,
+      "search_time_ms": 18.271,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.4,
+        "10": 0.2,
+        "20": 0.1
+      },
+      "recall_at_k": {
+        "1": 0.5,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "281763524639_0.JPG",
+      "class_id": 16893,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 1.997,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "261965974958_5.JPG",
+      "class_id": 12106,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 8.019,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301716472647_4.JPG",
+      "class_id": 15226,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.328,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331603329524_2.JPG",
+      "class_id": 11752,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271843992922_8.JPG",
+      "class_id": 16727,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 10.526,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "201384339741_2.JPG",
+      "class_id": 18841,
+      "category": "sofa_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.988,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "262011056554_5.JPG",
+      "class_id": 15768,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.916,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "281502626454_8.JPG",
+      "class_id": 12294,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.006,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261989871131_1.JPG",
+      "class_id": 15027,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281712676052_2.JPG",
+      "class_id": 22076,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.124,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "271530311015_6.JPG",
+      "class_id": 16695,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.969,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "262012380275_6.JPG",
+      "class_id": 15048,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "231410803344_0.JPG",
+      "class_id": 20543,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 2.047,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "361359067832_6.JPG",
+      "class_id": 18678,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 6.596,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261832907408_1.JPG",
+      "class_id": 19782,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "371192896158_2.JPG",
+      "class_id": 13832,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 9.419,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261991582771_1.JPG",
+      "class_id": 15720,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "391094860333_4.JPG",
+      "class_id": 15411,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271745340207_0.JPG",
+      "class_id": 21991,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 15.86,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "351245956354_9.JPG",
+      "class_id": 21539,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.807,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261736037482_1.JPG",
+      "class_id": 15666,
+      "category": "kettle_final",
+      "n_relevant": 2,
+      "search_time_ms": 6.748,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.5,
+        "5": 0.5,
+        "10": 0.5,
+        "20": 0.5
+      }
+    },
+    {
+      "filename": "331626334966_2.JPG",
+      "class_id": 22385,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.124,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "291488194891_3.JPG",
+      "class_id": 19276,
+      "category": "sofa_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331617929071_2.JPG",
+      "class_id": 22373,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 12.51,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "391219974097_1.JPG",
+      "class_id": 18787,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.13,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "261991759699_10.JPG",
+      "class_id": 17813,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.999,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "280961317122_9.JPG",
+      "class_id": 15112,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331395180466_5.JPG",
+      "class_id": 13731,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.02,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261685765568_1.JPG",
+      "class_id": 20824,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.913,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "371393008530_4.JPG",
+      "class_id": 20418,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "371382652817_2.JPG",
+      "class_id": 12756,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.009,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "231573005334_0.JPG",
+      "class_id": 11913,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261675308417_6.JPG",
+      "class_id": 13094,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "231650951761_1.JPG",
+      "class_id": 14064,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "252055315162_4.JPG",
+      "class_id": 14179,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.197,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281501051261_5.JPG",
+      "class_id": 19183,
+      "category": "sofa_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.407,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "400943950852_0.JPG",
+      "class_id": 22619,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.014,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271944396243_7.JPG",
+      "class_id": 12247,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.686,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "311405268586_5.JPG",
+      "class_id": 18361,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.903,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301551795232_4.JPG",
+      "class_id": 18253,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.422,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "391224795743_2.JPG",
+      "class_id": 22592,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281307550337_1.JPG",
+      "class_id": 19940,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 10.491,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321304129047_2.JPG",
+      "class_id": 21342,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.867,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "231633298602_4.JPG",
+      "class_id": 15471,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.006,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "252043983867_1.JPG",
+      "class_id": 21852,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.008,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271941201698_10.JPG",
+      "class_id": 11484,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.008,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271683182907_3.JPG",
+      "class_id": 13200,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.205,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "350754507776_2.JPG",
+      "class_id": 21499,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 2.998,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "262006919792_2.JPG",
+      "class_id": 15750,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.008,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331622021514_6.JPG",
+      "class_id": 17264,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 2.1,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271466035714_1.JPG",
+      "class_id": 13136,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 6.628,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "371331013654_5.JPG",
+      "class_id": 16277,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "311413518113_6.JPG",
+      "class_id": 19391,
+      "category": "sofa_final",
+      "n_relevant": 1,
+      "search_time_ms": 9.369,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "252037941542_6.JPG",
+      "class_id": 14143,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "251623297749_1.JPG",
+      "class_id": 19688,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "252039543238_3.JPG",
+      "class_id": 11359,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 13.939,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261796501649_1.JPG",
+      "class_id": 15671,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "251699697350_0.JPG",
+      "class_id": 20595,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301384052825_0.JPG",
+      "class_id": 14530,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 15.963,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261672148635_3.JPG",
+      "class_id": 20775,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.075,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "261616245404_0.JPG",
+      "class_id": 13020,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.999,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "391223228703_8.JPG",
+      "class_id": 16368,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.904,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "400963292036_3.JPG",
+      "class_id": 14890,
+      "category": "coffee_maker_final",
+      "n_relevant": 2,
+      "search_time_ms": 4.978,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "291136935866_6.JPG",
+      "class_id": 18107,
+      "category": "mug_final",
+      "n_relevant": 2,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.5
+      }
+    },
+    {
+      "filename": "261732365290_2.JPG",
+      "class_id": 14213,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "361112850464_1.JPG",
+      "class_id": 21551,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 19.987,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321576244365_2.JPG",
+      "class_id": 21363,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.907,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "251984972803_1.JPG",
+      "class_id": 11324,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281761982212_2.JPG",
+      "class_id": 16887,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.008,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331624023700_0.JPG",
+      "class_id": 20326,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.9,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "291524578289_3.JPG",
+      "class_id": 11599,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271594713516_4.JPG",
+      "class_id": 13145,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.059,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261994375944_8.JPG",
+      "class_id": 17826,
+      "category": "mug_final",
+      "n_relevant": 2,
+      "search_time_ms": 4.296,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.5,
+        "5": 0.5,
+        "10": 0.5,
+        "20": 0.5
+      }
+    },
+    {
+      "filename": "261396948203_1.JPG",
+      "class_id": 16549,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "360807062909_1.JPG",
+      "class_id": 15342,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 9.945,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "270840712850_2.JPG",
+      "class_id": 12153,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.429,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "361365042913_5.JPG",
+      "class_id": 15359,
+      "category": "fan_final",
+      "n_relevant": 2,
+      "search_time_ms": 4.014,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281719000075_1.JPG",
+      "class_id": 22077,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 2.006,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "350845595780_2.JPG",
+      "class_id": 12681,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 6.114,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331599506753_2.JPG",
+      "class_id": 20264,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281746159117_1.JPG",
+      "class_id": 12337,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 9.548,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321606355762_2.JPG",
+      "class_id": 21410,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301408558134_0.JPG",
+      "class_id": 13454,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 10.281,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "311182366230_0.JPG",
+      "class_id": 13502,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.84,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301678273463_4.JPG",
+      "class_id": 20064,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.886,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "231639138035_1.JPG",
+      "class_id": 21774,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.006,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "262007003824_1.JPG",
+      "class_id": 14285,
+      "category": "coffee_maker_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261991693146_2.JPG",
+      "class_id": 15721,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.655,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "311199329642_4.JPG",
+      "class_id": 21322,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.901,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "281738312167_2.JPG",
+      "class_id": 19196,
+      "category": "sofa_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.006,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 1.0,
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "262004493100_2.JPG",
+      "class_id": 15040,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.008,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "361098550806_1.JPG",
+      "class_id": 21548,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.873,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "231605560559_2.JPG",
+      "class_id": 14919,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "261979907473_5.JPG",
+      "class_id": 16629,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 9.704,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "391217829475_0.JPG",
+      "class_id": 18784,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.863,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281769474776_2.JPG",
+      "class_id": 18102,
+      "category": "mug_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.014,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "321819003517_0.JPG",
+      "class_id": 19455,
+      "category": "sofa_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.013,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281514855685_10.JPG",
+      "class_id": 21054,
+      "category": "table_final",
+      "n_relevant": 2,
+      "search_time_ms": 5.101,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.5,
+        "5": 0.5,
+        "10": 0.5,
+        "20": 0.5
+      }
+    },
+    {
+      "filename": "231646639181_1.JPG",
+      "class_id": 19643,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 6.232,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "291300593143_7.JPG",
+      "class_id": 13358,
+      "category": "chair_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.131,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "391212980205_10.JPG",
+      "class_id": 15424,
+      "category": "fan_final",
+      "n_relevant": 3,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.3333333333333333,
+        "20": 0.3333333333333333
+      }
+    },
+    {
+      "filename": "281777805769_1.JPG",
+      "class_id": 15161,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 10.759,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271948365150_2.JPG",
+      "class_id": 12264,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.645,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331132625350_2.JPG",
+      "class_id": 17200,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.917,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "291529639747_2.JPG",
+      "class_id": 11611,
+      "category": "bicycle_final",
+      "n_relevant": 2,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.5,
+        "10": 0.5,
+        "20": 0.5
+      }
+    },
+    {
+      "filename": "361362754807_3.JPG",
+      "class_id": 22481,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.623,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.05
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "252050251718_0.JPG",
+      "class_id": 21863,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.912,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "311368273689_4.JPG",
+      "class_id": 15241,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.006,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "361363560109_3.JPG",
+      "class_id": 22483,
+      "category": "toaster_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281617253570_3.JPG",
+      "class_id": 15127,
+      "category": "fan_final",
+      "n_relevant": 2,
+      "search_time_ms": 1.002,
+      "precision_at_k": {
+        "1": 1.0,
+        "5": 0.2,
+        "10": 0.1,
+        "20": 0.1
+      },
+      "recall_at_k": {
+        "1": 0.5,
+        "5": 0.5,
+        "10": 0.5,
+        "20": 1.0
+      }
+    },
+    {
+      "filename": "261970126840_1.JPG",
+      "class_id": 11410,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 8.216,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "291402640743_1.JPG",
+      "class_id": 12387,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271636400155_0.JPG",
+      "class_id": 12178,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 9.686,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301706318794_5.JPG",
+      "class_id": 15217,
+      "category": "fan_final",
+      "n_relevant": 1,
+      "search_time_ms": 5.962,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "281699366791_5.JPG",
+      "class_id": 12310,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.014,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331596148151_6.JPG",
+      "class_id": 11748,
+      "category": "bicycle_final",
+      "n_relevant": 1,
+      "search_time_ms": 6.337,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301512761958_1.JPG",
+      "class_id": 17010,
+      "category": "lamp_final",
+      "n_relevant": 1,
+      "search_time_ms": 3.995,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "291286443476_1.JPG",
+      "class_id": 12381,
+      "category": "cabinet_final",
+      "n_relevant": 1,
+      "search_time_ms": 2.999,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "271692155277_0.JPG",
+      "class_id": 20961,
+      "category": "table_final",
+      "n_relevant": 1,
+      "search_time_ms": 4.007,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "351402999077_4.JPG",
+      "class_id": 15330,
+      "category": "fan_final",
+      "n_relevant": 2,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "301688248434_0.JPG",
+      "class_id": 15997,
+      "category": "kettle_final",
+      "n_relevant": 1,
+      "search_time_ms": 0.0,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    },
+    {
+      "filename": "331560079281_4.JPG",
+      "class_id": 20253,
+      "category": "stapler_final",
+      "n_relevant": 1,
+      "search_time_ms": 15.777,
+      "precision_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      },
+      "recall_at_k": {
+        "1": 0.0,
+        "5": 0.0,
+        "10": 0.0,
+        "20": 0.0
+      }
+    }
+  ]
+}

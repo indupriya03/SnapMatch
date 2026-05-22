@@ -1,0 +1,42 @@
+# Environment
+.env
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+.env/
+deep-visual-retrieval/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — too large for GitHub
+data/
+
+# Large binary outputs
+*.npy
+*.bin
+*.index
+*.pt
+*.pth
+outputs/image_paths.json
+outputs/download_report.json
+outputs/embedding_report.json
+outputs/embedding_report_final.json
+outputs/evaluation_report.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

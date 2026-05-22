@@ -1,0 +1,117 @@
+{
+  "pass": 2,
+  "description": "Semantic noise detection",
+  "outlier_threshold": 0.5,
+  "total_checked": 9576,
+  "total_flagged": 6,
+  "total_removed": 6,
+  "per_category": {
+    "bicycle_final": {
+      "total_images": 796,
+      "flagged": 1,
+      "removed": 1,
+      "outliers": [
+        {
+          "filename": "351465842852_10.JPG",
+          "image_path": "data\\cleaned_data\\bicycle_final\\351465842852_10.JPG",
+          "similarity_to_centroid": 0.4974
+        }
+      ]
+    },
+    "cabinet_final": {
+      "total_images": 797,
+      "flagged": 0,
+      "removed": 0,
+      "outliers": []
+    },
+    "chair_final": {
+      "total_images": 799,
+      "flagged": 1,
+      "removed": 1,
+      "outliers": [
+        {
+          "filename": "181592152334_6.JPG",
+          "image_path": "data\\cleaned_data\\chair_final\\181592152334_6.JPG",
+          "similarity_to_centroid": 0.4549
+        }
+      ]
+    },
+    "coffee_maker_final": {
+      "total_images": 799,
+      "flagged": 0,
+      "removed": 0,
+      "outliers": []
+    },
+    "fan_final": {
+      "total_images": 793,
+      "flagged": 0,
+      "removed": 0,
+      "outliers": []
+    },
+    "kettle_final": {
+      "total_images": 800,
+      "flagged": 0,
+      "removed": 0,
+      "outliers": []
+    },
+    "lamp_final": {
+      "total_images": 800,
+      "flagged": 0,
+      "removed": 0,
+      "outliers": []
+    },
+    "mug_final": {
+      "total_images": 800,
+      "flagged": 0,
+      "removed": 0,
+      "outliers": []
+    },
+    "sofa_final": {
+      "total_images": 796,
+      "flagged": 1,
+      "removed": 1,
+      "outliers": [
+        {
+          "filename": "181823884257_9.JPG",
+          "image_path": "data\\cleaned_data\\sofa_final\\181823884257_9.JPG",
+          "similarity_to_centroid": 0.4388
+        }
+      ]
+    },
+    "stapler_final": {
+      "total_images": 799,
+      "flagged": 1,
+      "removed": 1,
+      "outliers": [
+        {
+          "filename": "191624768481_4.JPG",
+          "image_path": "data\\cleaned_data\\stapler_final\\191624768481_4.JPG",
+          "similarity_to_centroid": 0.4333
+        }
+      ]
+    },
+    "table_final": {
+      "total_images": 798,
+      "flagged": 2,
+      "removed": 2,
+      "outliers": [
+        {
+          "filename": "300446308330_4.JPG",
+          "image_path": "data\\cleaned_data\\table_final\\300446308330_4.JPG",
+          "similarity_to_centroid": 0.4218
+        },
+        {
+          "filename": "161506272295_2.JPG",
+          "image_path": "data\\cleaned_data\\table_final\\161506272295_2.JPG",
+          "similarity_to_centroid": 0.4324
+        }
+      ]
+    },
+    "toaster_final": {
+      "total_images": 799,
+      "flagged": 0,
+      "removed": 0,
+      "outliers": []
+    }
+  }
+}

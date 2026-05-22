@@ -1,0 +1,106 @@
+{
+  "pass": 1,
+  "description": "Structural checks",
+  "data_dir": "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data",
+  "min_size_px": 50,
+  "total_found": 9600,
+  "total_removed": 24,
+  "total_passed": 9576,
+  "removed_by_reason": {
+    "corrupt": [],
+    "wrong_format": [],
+    "too_small": [],
+    "non_rgb": [],
+    "blank": [],
+    "duplicate": [
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\bicycle_final\\251984972803_0.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\bicycle_final\\321809370687_11.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\bicycle_final\\111645993618_0.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\bicycle_final\\261942162413_1.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\cabinet_final\\221837456122_0.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\cabinet_final\\181822498938_6.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\cabinet_final\\161767042284_3.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\chair_final\\221579791218_9.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\coffee_maker_final\\271955133128_0.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\fan_final\\252043203506_7.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\fan_final\\121641711375_1.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\fan_final\\161760309261_3.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\fan_final\\161760309261_0.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\fan_final\\252043203506_0.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\fan_final\\281712133893_0.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\fan_final\\371369489991_0.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\sofa_final\\151748295157_4.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\sofa_final\\151748295157_3.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\sofa_final\\151748295157_8.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\sofa_final\\221802576879_3.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\stapler_final\\111717694901_5.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\table_final\\390988214860_3.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\table_final\\251648052274_2.JPG",
+      "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\my_project_data\\toaster_final\\221843431623_7.JPG"
+    ]
+  },
+  "per_category": {
+    "bicycle_final": {
+      "found": 800,
+      "removed": 4,
+      "passed": 796
+    },
+    "cabinet_final": {
+      "found": 800,
+      "removed": 3,
+      "passed": 797
+    },
+    "chair_final": {
+      "found": 800,
+      "removed": 1,
+      "passed": 799
+    },
+    "coffee_maker_final": {
+      "found": 800,
+      "removed": 1,
+      "passed": 799
+    },
+    "fan_final": {
+      "found": 800,
+      "removed": 7,
+      "passed": 793
+    },
+    "kettle_final": {
+      "found": 800,
+      "removed": 0,
+      "passed": 800
+    },
+    "lamp_final": {
+      "found": 800,
+      "removed": 0,
+      "passed": 800
+    },
+    "mug_final": {
+      "found": 800,
+      "removed": 0,
+      "passed": 800
+    },
+    "sofa_final": {
+      "found": 800,
+      "removed": 4,
+      "passed": 796
+    },
+    "stapler_final": {
+      "found": 800,
+      "removed": 1,
+      "passed": 799
+    },
+    "table_final": {
+      "found": 800,
+      "removed": 2,
+      "passed": 798
+    },
+    "toaster_final": {
+      "found": 800,
+      "removed": 1,
+      "passed": 799
+    }
+  },
+  "cleaned_dir": "C:\\indu\\Guvi\\Python\\pandas\\deep-visual-retrieval-ecommerce\\data\\cleaned_data",
+  "total_copied": 9576
+}

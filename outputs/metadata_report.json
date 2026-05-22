@@ -1,0 +1,22 @@
+{
+  "super_categories": 12,
+  "categories": 7644,
+  "total_products": 9576,
+  "train_images": 4675,
+  "test_images": 4901,
+  "build_time_seconds": 28.82,
+  "per_category": {
+    "bicycle_final": 796,
+    "cabinet_final": 797,
+    "chair_final": 799,
+    "coffee_maker_final": 799,
+    "fan_final": 793,
+    "kettle_final": 800,
+    "lamp_final": 800,
+    "mug_final": 800,
+    "sofa_final": 796,
+    "stapler_final": 799,
+    "table_final": 798,
+    "toaster_final": 799
+  }
+}

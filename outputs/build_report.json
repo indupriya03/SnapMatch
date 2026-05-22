@@ -1,0 +1,42 @@
+{
+  "index_type": "IndexFlatIP",
+  "similarity_metric": "cosine (via L2 normalisation + inner product)",
+  "embedding_dim": 2048,
+  "total_vectors": 9570,
+  "total_images": 9570,
+  "index_path": "outputs\\faiss_index.bin",
+  "embeddings_path": "outputs\\embeddings.npy",
+  "image_paths_path": "outputs\\image_paths.json",
+  "verification": {
+    "query_image": "data\\cleaned_data\\bicycle_final\\111085122871_0.JPG",
+    "top_k": 5,
+    "results": [
+      {
+        "rank": 1,
+        "image": "111085122871_0.JPG",
+        "similarity_score": 1.0
+      },
+      {
+        "rank": 2,
+        "image": "201396934519_4.JPG",
+        "similarity_score": 0.946220874786377
+      },
+      {
+        "rank": 3,
+        "image": "111265328556_0.JPG",
+        "similarity_score": 0.9436036348342896
+      },
+      {
+        "rank": 4,
+        "image": "111265328556_2.JPG",
+        "similarity_score": 0.9429822564125061
+      },
+      {
+        "rank": 5,
+        "image": "252010845997_0.JPG",
+        "similarity_score": 0.9410076141357422
+      }
+    ],
+    "sanity_check_passed": true
+  }
+}

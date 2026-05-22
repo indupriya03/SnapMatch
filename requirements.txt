@@ -1,0 +1,31 @@
+# Core ML & Vision
+torch
+torchvision
+numpy
+scikit-learn
+scipy
+pillow
+
+# Vector Search
+faiss-cpu
+
+# Database
+SQLAlchemy
+PyMySQL
+
+# Data
+pandas
+pyarrow
+kaggle
+tqdm
+
+# Visualisation & App
+streamlit
+matplotlib
+seaborn
+plotly
+
+# API
+fastapi
+uvicorn
+python-multipart
